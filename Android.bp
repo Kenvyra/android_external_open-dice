@@ -154,8 +154,6 @@ rust_bindgen {
     // This makes the generated bindings much more concise and improves compilation
     // time.
     bindgen_flags: [
-        "--size_t-is-usize",
-
         "--allowlist-function=DiceDeriveCdiPrivateKeySeed",
         "--allowlist-function=DiceDeriveCdiCertificateId",
         "--allowlist-function=DiceMainFlow",
@@ -196,8 +194,6 @@ rust_bindgen {
     // This makes the generated bindings much more concise and improves compilation
     // time.
     bindgen_flags: [
-        "--size_t-is-usize",
-
         "--allowlist-function=BccFormatConfigDescriptor",
         "--allowlist-function=BccMainFlow",
         "--allowlist-function=BccHandoverMainFlow",
